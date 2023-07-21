@@ -1,0 +1,134 @@
+@font-face {
+    src: url(../fonts/Karma-Regular.ttf);
+    font-family: 'Karma-Regular';
+}
+@font-face {
+    src: url(../fonts/Karma-SemiBold.ttf);
+    font-family: 'Karma-SemiBold';
+}
+@font-face {
+    src: url(../fonts/Karma-Bold.ttf);
+    font-family: 'Karma-Bold';
+}
+@font-face {
+    src: url(../fonts/Kameron-Regular.ttf);
+    font-family: 'Kameron-Regular';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/Desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    display: flex;
+    margin-top: 69px;
+    margin-left: 51px;
+    margin-bottom: 420px;
+}
+.header>img {
+    position: absolute;
+    top: 0px;
+    left: 355px;
+}
+.header>svg {
+    margin-right: 307px;
+}
+.header>nav>a {
+    color: #FFF;
+    font-family: 'Karma-SemiBold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-right: 77px;
+}
+/* /Header */
+
+/* Texts */
+.texts {
+    width: 100%;
+    margin-left: 268px;
+    margin-bottom: 100px;
+}
+.texts>.h-box {
+    width: 785px;
+    max-height: 136px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 94.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p {
+    font-family: 'Kameron-Regular';
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.f-text {
+    margin-top: 16px;
+}
+.f-text>svg {
+    margin-left: 20px;
+}
+span {
+    color: #FFF;
+    font-family: 'Karma-Regular';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.75px;
+    text-transform: capitalize;
+}
+/* /Texts */
+
+/* Footer */
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 90px;
+}
+h2 {
+    color: #FFF;
+    font-family: 'Karma-Bold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.f-text>ul {
+    color: #FFF;
+    font-family: 'Karma-Bold';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer>#vector-2 {
+    margin-left: 281px;
+    margin-right: 537px;
+}
+.footer>.icons {
+    padding-bottom: 10px;
+}
+.footer>.icons>svg {
+    margin-right: 13px;
+}
+/* /Footer */
